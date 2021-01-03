@@ -7,3 +7,13 @@ if(randomNumber == 1){
 }   else (randomNumber == 3){
     computerMove = 'nozyce';
 }
+
+let playerInput = prompt('Wybierz swój ruch: 1: Kamień, 2: Papier, 3: Nozyce.');
+console.log('Gracz wpisał: ' + playerInput);
+if (playerInput == '1'){
+    playerMove = 'kamień';
+}   else if (playerInput == '2'){
+    playerMove = 'papier';
+}   else (playerInput == '3'){
+    playerMove = 'nozyce';
+}
