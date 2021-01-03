@@ -4,7 +4,7 @@ function printMessage(msg){
     let playerMove = 'papier';
 	div.innerHTML = msg;
     document.getElementById('messages').appendChild(div);
-    printMessage('Zagrałem ' + computerMove + '! Jeśli Twój ruch to 'playerMove' , to wygrywasz');
+    printMessage('Zagrałem ' + computerMove + '! Jeśli Twój ruch to ' + playerMove + ' , to wygrywasz');
 }
 
 function clearMessages(){
