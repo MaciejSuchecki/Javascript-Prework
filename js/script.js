@@ -17,3 +17,14 @@ if (playerInput == '1'){
 }   else (playerInput == '3'){
     playerMove = 'nozyce';
 }
+
+if (computerMove == 'kamień' && playerMove == 'papier'){
+    printMessage('Wygrałeś!');
+}   else if (computerMove == 'kamień' && playerMove == 'nozyce'){
+    printMessage('Komputer wygrał!');
+}   else (playerMove == 'kamień' && playerMove == 'kamień'){
+    printMessage('Remis!');
+}
+if (playerInput != randomNumber){
+    printMessage('Błędny wybór! Wybierz swój ruch: 1: Kamień, 2: Papier, 3: Nozyce.');
+}
